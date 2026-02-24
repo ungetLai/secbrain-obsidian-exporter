@@ -33,7 +33,7 @@ pip install -e .
 
 Or using pip directly:
 ```bash
-pip install psycopg[binary] python-dotenv
+python3 -m pip install -i https://pypi.org/simple psycopg[binary] python-dotenv
 ```
 
 ## Configuration
@@ -71,7 +71,7 @@ LOCK_FILE_PATH=/tmp/secbrain-exporter.lock
 ### Manual Run
 
 ```bash
-python exporter.py
+python3 exporter.py
 ```
 
 Or if installed:
